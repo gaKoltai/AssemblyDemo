@@ -25,7 +25,7 @@ namespace AssemblyDemo
             Console.WriteLine($"The name of the assembly is: {assembly.FullName}");
             Console.WriteLine($"Is assembly from the global cache? : {assembly.GlobalAssemblyCache}");
             Console.WriteLine($"The location of the assembly is: {assembly.Location}");
-            Console.WriteLine($"{assembly.ImageRuntimeVersion} is the runtime version of the assembly.");
+            Console.WriteLine($"Version: {assembly.ImageRuntimeVersion}");
 
             foreach (var module in assembly.Modules)
             {
